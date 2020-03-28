@@ -1,0 +1,29 @@
+TITLE:イデア
+SUBTITLE:
+BPM:252
+WAVE:イデア.wav
+OFFSET:-1.65
+SONGVOL:40
+SEVOL:40
+DEMOSTART:1
+
+SCOREMODE:2		//スコア計算方式。各COURSE:の後に入れると（多分）そちらを優先
+			//0:ドンだフル、1:AC14以前の方式、2:新方式
+
+
+
+COURSE:3
+LEVEL:7
+BALLOON:
+STYLE:Single
+
+SCOREINIT:		//スコアの初項。省略可。指定する場合は全てのコースに入れると吉（値はなくてもよし）
+SCOREDIFF:		//スコアの公差。省略可。
+
+TOTAL:			//ゲージの上昇量。省略可。この譜面（かんたん）のデフォルト値が141くらいに相当。
+
+
+#START
+#MEASURE 5/4
+10102010102010102010,
+#END
